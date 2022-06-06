@@ -16,7 +16,7 @@ class HomeActivity : AppCompatActivity() {
                 listener()
     }
 
-    private fun listener{
+    private fun listener(){
         binding.buttonStartHomeActivity.setOnClickListener() {
             val myIntent = Intent(this, LogInActivity::class.java)
             startActivity(myIntent)
