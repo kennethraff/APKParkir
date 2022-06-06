@@ -9,12 +9,14 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="1200dp"
-        android:layout_height="1200dp"
-        android:layout_marginEnd="-2dp"
-        android:layout_marginBottom="-150dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/parkir" />
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pexels_josh_sorenson_103601" />
 
     <Button
         android:id="@+id/button_start_homeActivity"
@@ -23,9 +25,10 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="24dp"
-        android:text="Start"
+        android:text="Starts here"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
