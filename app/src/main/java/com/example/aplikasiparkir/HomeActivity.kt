@@ -1,5 +1,6 @@
 package com.example.aplikasiparkir
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.aplikasiparkir.databinding.ActivityHomeBinding
@@ -12,5 +13,13 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
                 supportActionBar?.hide()
+                listener()
+    }
+
+    private fun listener{
+        binding.buttonStartHomeActivity.setOnClickListener() {
+            val myIntent = Intent(this, LogInActivity::class.java)
+            startActivity(myIntent);
+        }
     }
 }
